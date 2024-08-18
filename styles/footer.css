@@ -99,3 +99,33 @@ footer {
     }
   }
 }
+
+@media (max-width: 40remfo) {
+    footer {
+      padding: 2rem 1rem; 
+      flex-direction: column; 
+      align-items: flex-start;
+  
+      & .logo {
+        margin-bottom: 1.5rem; 
+      }
+  
+      & nav {
+        width: 100%;
+        margin-bottom: 1.5rem; 
+        justify-content: space-between; 
+      }
+  
+      & .social-links {
+        justify-content: flex-start;
+      }
+    }
+  }
+  
+  @media (max-width: 40rem) {
+    footer {
+      & nav {
+        flex-direction: column; 
+      }
+    }
+  }
